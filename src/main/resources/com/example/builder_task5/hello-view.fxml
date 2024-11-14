@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.builder_task5.HelloController">
+   <children>
+      <Button fx:id="button1" layoutX="239.0" layoutY="405.0" mnemonicParsing="false" onAction="#button1OnAction" text="Нарисовать фигуру" />
+      <AnchorPane fx:id="anchorPane1" prefHeight="393.0" prefWidth="600.0">
+         <children>
+            <AnchorPane fx:id="anchorPane2" prefHeight="375.0" prefWidth="572.0" />
+         </children></AnchorPane>
+   </children>
+</Pane>
